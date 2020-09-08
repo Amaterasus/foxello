@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import "./NavBar.css"
 
 const NavBar = () => {
   return (
@@ -9,13 +10,15 @@ const NavBar = () => {
       <Link to="/">
         <img src="logo.png" />
       </Link>
-      <div>
+      <div className="navLinks">
         <Link to="/">Home</Link>
         <Link to="/Projects">Projects</Link>
         <Link to="/AboutUs">AboutUs</Link>
         <Link to="/ContactUs">ContactUs</Link>
       </div>
-      <FontAwesomeIcon icon={faFacebook} />
+      <a className="icon">
+        <FontAwesomeIcon icon={faFacebook} />
+      </a>
     </nav>
   );
 };

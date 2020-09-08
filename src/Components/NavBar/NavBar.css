@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 0.5% 2.5%;
+}
+
+nav img {
+    width: 60px;
+    align-self: flex-end;
+}
+
+nav .icon {
+    font-size: 40px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+nav .icon:hover{
+    color: blue
+}
+
+nav .navLinks {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .navLinks a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+nav .navLinks a:hover{
+    color: blue
+}
+

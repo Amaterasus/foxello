@@ -5,7 +5,7 @@ import './App.css';
 import Projects from './Pages/Projects';
 import ContactUs from './Pages/ContactUs';
 import AboutUs from './Pages/AboutUs';
-import NavBar from "./Components/NavBar"
+import NavBar from "./Components/NavBar/NavBar"
 import Footer from "./Components/Footer"
 
 const App = () => {
